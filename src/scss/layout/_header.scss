@@ -1,0 +1,21 @@
+header {
+  a {
+    text-decoration: none;
+    color: black;
+
+    &:hover {
+      color: black;
+      text-decoration: none;
+    }
+  }
+
+  .jumbotron {
+    @include fixedBG($main-image-url);
+    margin-bottom: 0;
+
+    .display-4,
+    .lead {
+      font-weight: 500;
+    }
+  }
+}

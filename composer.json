@@ -1,0 +1,26 @@
+{
+  "name": "mak001/portfolio-theme",
+  "description": "The SilverStripe theme made for mak001's portfolio",
+  "type": "silverstripe-theme",
+  "keywords": ["silverstripe", "theme"],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Matthew Koerber (mak001)",
+      "email": "matthew@matthewkoerber.com",
+      "homepage": "http://matthewkoerber.com"
+    }
+  ],
+  "require": {
+    "composer/installers": "*",
+    "silverstripe/errorpage": "1.0.x-dev",
+    "silverstripe/framework": "4.0.x-dev"
+  },
+  "extra": {
+    "installer-name": "portfolio",
+    "branch-alias": {
+      "dev-silverstripe-4": "2.x-dev",
+      "dev-master": "2.x-dev"
+    }
+  }
+}

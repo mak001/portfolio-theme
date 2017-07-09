@@ -1,0 +1,33 @@
+main {
+
+  p {
+    text-indent: 2.5em;
+  }
+
+  .jumbotron.project-header {
+    background-size: cover;
+    position: relative;
+    background-position: center top;
+    min-height: 250px;
+    overflow: hidden;
+    border-radius: 0.5rem;
+
+    h1 {
+      font-weight: 500;
+      color: white;
+    }
+
+    &.overlay {
+      @include overlay(0.5);
+    }
+
+    &.img-center {
+      background-position: center center;
+    }
+  }
+}
+
+.container {
+  max-width: 100%;
+  overflow-x: hidden;
+}
